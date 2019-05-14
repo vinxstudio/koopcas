@@ -1,0 +1,18 @@
+<template>
+<div class="financial-gl-transaction"> <div class="form-row justify-content-center pt-3"><div class="col-sm-6"><div class="form-row"><label class="col-sm-2 col-form-label col-form-label-sm mt-1 text-sm-right text-truncate">CUT-OFF DATE:</label><div class="col my-1"><div class="form-row"><div class="col"><fieldset class="border p-2 h-100"><div class="form-row"><label class="col-sm-2 text-sm-right col-form-label col-form-label-sm mt-1">FROM:</label><div class="col my-1"><input class="form-control form-control-sm" name="" type="date"></div></div><div class="form-row"><label class="col-sm-2 text-sm-right col-form-label col-form-label-sm mt-1">TO:</label><div class="col my-1"><input class="form-control form-control-sm" name="" type="date"></div></div></fieldset></div><div class="col"><fieldset class="border p-2 h-100"><div class="form-row"><div class="col"><label class="col-form-label col-form-label-sm">Department</label><select class="custom-select custom-select-sm" id="" name=""><option value="1" ng-reflect-value="1">1</option><option value="2" ng-reflect-value="2">2</option></select></div></div></fieldset></div></div></div></div><div class="form-row my-3"><div class="col-sm-2"><label class="col-form-label col-form-label-sm">GL Account Code:</label><button class="btn btn-sm btn-block btn-outline-primary"><i class="fa fa-file mr-1"></i><span>Browse</span></button></div><div class="col"><div class="form-row align-items-center"><div class="col"><select class="custom-select custom-select-sm bg-light-yellow border-0" id="" multiple="" name=""><option value="1" ng-reflect-value="1"></option><option value="2" ng-reflect-value="2"></option></select></div></div><div class="form-check form-check-sm"><input class="form-check-input" type="checkbox"><label class="form-check-label">Group By GL Account Code</label></div><fieldset class="border p-2 mt-3"><div class="form-row"><div class="col-sm-3"><label class="col-form-label col-form-label-sm mt-1 text-sm-right text-truncate w-100">Transaction Type:</label><div class="form-check form-check-sm"><input class="form-check-input" type="checkbox"><label class="form-check-label">Group By Month</label></div><div class="form-check form-check-sm"><input class="form-check-input" type="checkbox"><label class="form-check-label">Group By Date</label></div></div><div class="col"><div class="form-row align-items-center"><div class="col"><select class="custom-select custom-select-sm" id="" multiple="" name=""><option value="1" ng-reflect-value="1">1</option><option value="2" ng-reflect-value="2">2</option></select></div><div class="col-auto"><i class="fas fa-angle-double-right"></i></div><div class="col"><select class="custom-select custom-select-sm bg-light-yellow border-0" id="" multiple="" name=""><option value="1" ng-reflect-value="1"></option><option value="2" ng-reflect-value="2"></option></select></div></div></div></div></fieldset></div></div><div class="form-row justify-content-center"><div class="col-sm-auto my-2"><button class="btn btn-dark-blue btn-block p-3"><i class="fa fa-save mr-1"></i><span>OK</span></button></div><div class="col-sm-auto my-2"><button class="btn btn-outline-dark-blue btn-block p-3"><i class="fa fa-ban mr-1"></i><span>Cancel</span></button></div></div></div></div> </div>
+</template>
+
+<style>
+   .bg-light-green {
+   background-color: #20c997 !important;
+   }
+   .bg-light-blue {
+   background-color: #6dcff6 !important;
+   }
+   .bg-light-pink {
+   background-color: #ef80ff !important;
+   }
+   .bg-light-yellow {
+   background-color: #fff9c4 !important;
+   }
+</style>

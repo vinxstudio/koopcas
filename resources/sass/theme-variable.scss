@@ -1,0 +1,81 @@
+/*
+ * Application global variables.
+ */
+
+// Set Font Awesome font path
+$fa-font-path: "~@fortawesome/fontawesome-free-webfonts/webfonts";
+
+//
+// Color system
+//
+$white:  #fff;
+$gray-100: #f8f9fa;
+$gray-200: #e9ecef;
+$gray-300: #dee2e6;
+$gray-400: #ced4da;
+$gray-500: #adb5bd;
+$gray-600: #868e96;
+$gray-700: #495057;
+$gray-800: #343a40;
+$gray-900: #212529;
+$black:  #000;
+
+$indigo:    #6610f2;
+$purple:    #6f42c1;
+$red:       #dc3545;
+$orange:    #fd7e14;
+$green:     #28a745;
+$teal:      #20c997;
+$cyan:      #17a2b8;
+
+$pink:       #e83e8c;
+$light-pink: #ef80ff;
+
+$blue:       #36a3dc;
+$light-blue: #6dcff6;
+$dark-blue:  #418cb3;
+
+$light-yellow: #FFF9C4;
+$yellow:       #ffc107;
+
+$theme-colors: (
+  primary: $blue,
+  secondary: $gray-600,
+  success: $green,
+  info: $cyan,
+  warning: $yellow,
+  danger: $red,
+  light: $gray-100,
+  dark: $gray-800,
+  dark-blue: $dark-blue,
+  light-blue: $light-blue,
+  light-green: $teal,
+  light-pink: $light-pink,
+  light-yellow: $light-yellow
+);
+
+//
+// Fonts
+//
+
+$font-size-base:              0.875rem; // 14px
+$font-size-lg:                1.2rem;
+$font-size-sm:                0.833rem;
+$line-height-base:            1.45;
+
+$h1-font-size:                2.074rem;
+$h2-font-size:                1.728rem;
+$h3-font-size:                1.44rem;
+$h4-font-size:                1.2rem;
+$h5-font-size:                $font-size-base;
+$h6-font-size:                0.833rem;
+
+// Forms
+
+$input-color:                 $black;
+
+
+// Use Bootstrap defaults for other variables, imported here so we can access all app variables in one place when used
+// in components.
+@import "~bootstrap/scss/_functions";
+@import "~bootstrap/scss/_variables";
