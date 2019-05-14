@@ -7,6 +7,27 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/license.svg" alt="License"></a>
 </p>
 
+## About the Project
+COMPUTERIZED ACCOUNTING SYSTEM
+Manual accounting requires that all journal entries, invoices and other financial documents be created by hand. Computerized accounting allows users to input information into accounting software programs. 
+
+Speed
+Computerized accounting produces information much faster than manual accounting. Accounting software packages, KOOPCAS come with built-in database that allow users to input data.
+
+Accuracy
+Manual accounting systems are prone to mathematical errors and misplaced numbers. With KOOPCAS, your cooperative data is automatically calculated based on numbers you input.
+
+Financial Statements
+In a manual accounting system, you have to prepare your cooperative's income statement, balance sheet and statement of member's share capital by hand. Information from your journal entries helps formulate your coop's financial statements. KOOPCAS allow financial statements to be created from information stored in the database.
+
+Cost
+The cost of computerized accounting systems can range from HUNDRED THOUSAND to MILLIONS OF PESOS for LARGE COOPERATIVES . A computerized accounting system may save on man hours used for creating financial statements and other reports. For this reason, many small and mid-sized COOPERATIVES use computerized accounting software.
+
+Reports
+Reports are created in a timely manner when using a KOOPCAS. Reports generated from computerized accounting software allow managers to run the company in a more efficient manner. Creating reports in a manual accounting system may lead to more staff frustration and result in having to work with outdated information.
+
+KOOPCAS THE ULTIMATE SOLUTION FOR COOP AUTOMATION
+
 ## About Laravel
 
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel attempts to take the pain out of development by easing common tasks used in the majority of web projects, such as:
